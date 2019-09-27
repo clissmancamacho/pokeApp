@@ -28,7 +28,7 @@ export class PokemonComponent implements OnInit {
     });
   }
 
-  onClick(pokemonId: string) {
+  onClick(pokemonId: number) {
     this.clickPokemon.emit(pokemonId);
   }
 

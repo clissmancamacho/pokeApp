@@ -54,7 +54,7 @@ export class PokedexComponent implements OnInit {
     })
   }
 
-  listenToClickPokemon(pokemonId: string) {
+  listenToClickPokemon(pokemonId: number) {
     this.router.navigateByUrl(`pokedex/pokemon-detail/${pokemonId}`);
   }
 
